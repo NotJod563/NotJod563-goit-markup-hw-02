@@ -7,8 +7,6 @@
     --accent: #2196f3;
     --color-bg-team: #f5f4fa;
     --color-footers-link: rgba(255, 255, 255, 0.6);
-    --footer-logo-color: #4d5ae5;
-    --footer-text-color: #f4f4fd;
 }
 
 body {
@@ -140,31 +138,19 @@ section h2 {
 
 .ftr {
     background-color: var(--secondary-bg-color);
-    /* Використання змінної */
     color: var(--primary-bg-color);
 }
 
-.ftr .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
+.ftr {
+    font-size: 26px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--footer-logo-color);
-    /* Використання змінної */
-}
-
-.ftr .logo span {
-    color: var(--footer-text-color);
-    /* Використання змінної */
 }
 
 .ftr p {
-    line-height: 1.5;
-    color: var(--footer-text-color);
-    /* Використання змінної */
-    letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--white);
 }
 
 .ftr .ftr-contacts {
@@ -198,16 +184,25 @@ section h2 {
     color: var(--primary-bg-color);
 }
 
+/* Додані стилі для секції .portfolio */
 .portfolio h2 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.portfolio p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
+.portfolio-list .portfolio-list-item h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-list .portfolio-list-item p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
