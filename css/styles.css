@@ -9,6 +9,16 @@
 button {
     cursor: pointer;
     font-family: inherit;
+    background-color: #4d5ae5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+button:hover,
+button:focus {
+    background-color: #404bbf;
 }
 
 body {
@@ -66,16 +76,4 @@ body {
 
 .hero {
     background-color: #2e2f42;
-    color: #ffffff;
-    text-align: center;
-}
-
-.hero-title {
-    color: #ffffff;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-}
-
-.hero-button {
-    font-weight: 500;
+    color: #ffffff
