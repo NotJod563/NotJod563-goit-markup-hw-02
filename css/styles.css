@@ -1,7 +1,6 @@
 :root {
     --primary-bg-color: #ffffff;
     --secondary-bg-color: #2e2f42;
-    /* Виправлено колір фону */
     --color-main-text: #212121;
     --color-secondary-text: #757575;
     --white: #ffffff;
@@ -94,19 +93,11 @@ section h2 {
     color: var(--color-main-text);
 }
 
-/* Додані стилі для заголовка у другій секції */
 .advantages h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-/* Додані стилі для параграфа у другій секції */
-.advantages p {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 .team {
