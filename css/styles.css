@@ -1,12 +1,14 @@
 :root {
     --primary-bg-color: #ffffff;
-    --secondary-bg-color: #2f303a;
+    --secondary-bg-color: #2e2f42;
     --color-main-text: #212121;
     --color-secondary-text: #757575;
     --white: #ffffff;
     --accent: #2196f3;
     --color-bg-team: #f5f4fa;
     --color-footers-link: rgba(255, 255, 255, 0.6);
+    --footer-logo-color: #4d5ae5;
+    --footer-text-color: #f4f4fd;
 }
 
 body {
@@ -94,5 +96,118 @@ section h2 {
 }
 
 .advantages h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.advantages p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-list .team-member {
+    background-color: #ffffff;
+}
+
+.team-list .team-member h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-list .team-member p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.ftr {
+    background-color: var(--secondary-bg-color);
+    /* Використання змінної */
+    color: var(--primary-bg-color);
+}
+
+.ftr .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer-logo-color);
+    /* Використання змінної */
+}
+
+.ftr .logo span {
+    color: var(--footer-text-color);
+    /* Використання змінної */
+}
+
+.ftr p {
+    line-height: 1.5;
+    color: var(--footer-text-color);
+    /* Використання змінної */
+    letter-spacing: 0.02em;
+}
+
+.ftr .ftr-contacts {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-secondary-text);
+}
+
+.ftr .ftr-contacts:hover,
+.ftr .ftr-contacts:focus {
+    color: var(--primary-bg-color);
+}
+
+.btn-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.btn-list .item {
+    background-color: var(--color-bg-team);
+}
+
+.btn-list .button:hover,
+.btn-list .button:focus {
+    background-color: var(--accent);
+    color: var(--primary-bg-color);
+}
+
+.portfolio h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
