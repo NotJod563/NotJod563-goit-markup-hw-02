@@ -107,7 +107,7 @@ body {
     letter-spacing: 0.02em;
 }
 .team {
-    background-color: #F4F4FD;
+    background-color: #ffffff;
 }
 .team-title {
     font-size: 36px;
@@ -116,10 +116,6 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-
-.team-member {
-    background-color: #ffffff;
 }
 
 .team-members-name {
